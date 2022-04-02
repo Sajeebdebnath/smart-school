@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul,
+ul li {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #13375b;
+}
+.btn {
+  font-size: 18px;
+  background: #13375b;
+  font-weight: 500;
+  color: white;
+  padding: 5px 24px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.btn:hover {
+  border-color: #13375b;
+  background: white;
+}
+
+.school-header {
+  background: #50bfa5;
+  padding: 12px 0;
+}
+
+.school-header .logo img {
+  width: 270px;
+  height: 35px;
+}
+
+.header-menu nav ul {
+  list-style: none;
+}
+
+.header-menu nav ul li {
+  display: inline;
+  margin-left: 25px;
+}
+
+.header-menu nav ul li:hover a {
+  border-color: #13375b;
+}
+
+.header-menu nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  border-bottom: 4px solid transparent;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.header-menu nav ul li a.active {
+    border-color: #13375b;
+}
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.join-us {
+  padding-left: 30px;
+}
+.hero-section {
+  background: #fef6e7;
+  height: 500px;
+  display: flex;
+  align-items: end;
+}
+.hero-images img {
+  width: 830px;
+  height: 455px;
+  padding-top: 30px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #13375b;
+}
+
+.hero-text h1 span {
+  font-size: 52px;
+}
+
+.hero-text h4 {
+  color: #50bfa5;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.btn.get-started {
+  background: #50bfa5;
+  color: #13375b;
+  font-weight: 700;
+  padding: 7px 25px;
+}
+
+.teacher-features-area,
+.student-features-area {
+  background: #49a49e;
+  padding: 70px 0;
+}
+.student-features-area {
+  background-color: #8acebe;
+}
+
+.section-text h3 {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.feature-item {
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 35px 0;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+}
+.section-text {
+  margin-bottom: 20px;
+}
+
+.feature-icon svg {
+  width: 120px;
+  height: 120px;
+}
+.feature-item:hover {
+  opacity: 0.8;
+  background: #3c8d88;
+}
+.student-features-area .feature-item:hover {
+  opacity: 0.8;
+  background: #7abaab;
+}
+
+.feature-text h4 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.footer-bottom {
+  background: #13385b;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  padding: 0;
+  color: #8acebe;
+}
+
+.footer-bottom p.copyright {
+  color: white;
+}
+
+/* Learn Page CSS */
+.learn-sidebar {
+  background: #9acbbf;
+  height: 100%;
+}
+.learning-material {
+  padding: 30px;
+}
+
+.learning-topic {
+  background: #49a49e;
+  border-radius: 10px;
+  height: 150px;
+  position: relative;
+}
+.learning-topic h5 {
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+  color: white;
+  font-size: 24px;
+}
+
+.topic-initial {
+  position: absolute;
+  right: 26px;
+  top: 50%;
+  margin-top: -70px;
+}
+
+.topic-initial h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 75px;
+  opacity: 0.2;
+}
+.previous-next-lesson {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 0;
+}
+
+.previous-next-lesson .btn {
+  background: #49a49e;
+  display: flex;
+  align-items: center;
+}
+
+.previous-next-lesson h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #3fa88f;
+}
+.learn-more-section h4 {
+  color: #13375b;
+  margin-bottom: 15px;
+}
+
+.single-learn-item {
+  background: #50bfa5;
+  text-align: center;
+  position: relative;
+  padding: 56px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-learn-item-icon {
+  position: absolute;
+}
+
+.single-learn-item h1 {
+  font-size: 80px;
+  font-weight: 600;
+  color: white;
+  opacity: 0.9;
+  margin-top: -25px;
+}
+
+.learn-items {
+  padding: 25px 0px;
+}
+
+.single-learn-item-icon {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 50px;
+  align-items: center;
+  background: #3fa88f;
+  bottom: 0;
+}
+
+.single-learn-item-icon .icon svg {
+  width: 30px;
+  height: 30px;
+  color: #50bfa5;
+  cursor: pointer;
+}
+
+.single-learn-item-icon .icon:hover svg {
+  color: #3d927e;
+}
+.teacher-info h5 {
+  color: #56818d;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+}
+
+.teacher-info h5::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #13375bb2;
+  bottom: -7px;
+  left: 0;
+}
+
+.teacher-info h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #13375bcc;
+  line-height: 60px;
+  margin: 0;
+}
+
+.teacher-info p.tag {
+  background: #56818d80;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: white;
+}
+
+.teacher-info p {
+  font-size: 15px;
+  color: #56818d;
+}
+.teacher-info {
+  padding: 30px 35px;
+  border-bottom: 1px solid #78a6a6;
+}
+.faq-section .teacher-info {
+  padding: 0;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.faq-section {
+  padding: 30px 25px;
+}
+
+.faq-question h4 {
+  font-size: 17px;
+  color: #56818d;
+  font-weight: 600;
+}
+
+.faq-question p {
+  color: #56818d;
+  font-size: 15px;
+}
+.faq-question {margin-bottom: 25px;}
